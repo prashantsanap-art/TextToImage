@@ -9,9 +9,7 @@ from Models.Anime_DF import display_Anime_df
 
 
 load_dotenv()
-HUGGINGFACE_API_KEY = st.secrets['HUGGINGFACE_API_KEY']
-HUGGINGFACE_API_KEY1 = st.secrets['HUGGINGFACE_API_KEY1']
-OPEN_AI_API = st.secrets['OPEN_AI_API']
+HUGGINGFACE_API_KEY = st.secrets['PrashantGenAIHuggingFaceToken']
 
 st.set_page_config(
         page_title="Generative Image",
